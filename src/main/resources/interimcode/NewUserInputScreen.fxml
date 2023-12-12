@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.geometry.Insets?>
+
+<!-- FXML file for the New User Input Screen of the application. -->
+<VBox xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="interimcode.NewUserInputScreenController" styleClass="main-style">
+
+    <!-- Title label -->
+    <Label text="$$$ Know Your Worth $$$" styleClass="title-label"/>
+
+    <!-- Displays error output -->
+    <Label fx:id="errorDisplay" styleClass="bold-label"/>
+
+    <!-- Prompt label to create new user -->
+    <Label text="Create a New User: " styleClass="subheading-label"/>
+
+    <!-- Label for text field input for user name -->
+    <Label text="Enter your name:" styleClass="subtitle-label"/>
+
+    <!-- User input field -->
+    <TextField fx:id="nameTextField"/>
+
+    <!-- Continue button -->
+    <Button text="Continue" onAction="#handleContinueButton" styleClass="button"/>
+</VBox>
