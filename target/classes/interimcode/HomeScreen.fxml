@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Button?>
+<?import javafx.geometry.Insets?>
+
+<!-- FXML file for the Home Screen of the application. -->
+<VBox xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="interimcode.HomeScreenController" styleClass="main-style">
+
+    <!-- Title label -->
+    <Label text="$$$ Know Your Worth $$$" styleClass="title-label"/>
+
+    <!-- Prompt label -->
+    <Label text="Are you a returning user?" styleClass="subtitle-label"/>
+
+    <!-- Buttons -->
+    <Button text="Yes" onAction="#handleYesButton" styleClass="button"/>
+    <Button text="No" onAction="#handleNoButton" styleClass="button"/>
+
+</VBox>

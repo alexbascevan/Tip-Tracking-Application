@@ -1,0 +1,66 @@
+/* Fix the font bug on Mac */
+.root {
+    -fx-font-family: serif; /* Set the font for the entire application to fix bug on macs */
+}
+
+/* Title label styling */
+.title-label {
+    -fx-font-size: 32px; /* Set the font size to 32 pixels */
+    -fx-font-weight: bold; /* Set the font weight to bold */
+    -fx-padding: 0 0 10 0; /* Add padding to the bottom of the title label */
+    -fx-text-fill: rgb(255, 255, 255); /* Set the font color */
+}
+
+/* Subheading label styling */
+.subheading-label {
+    -fx-font-size: 24px; /* Set the font size to 24 pixels */
+    -fx-font-style: italic; /* Set the font style to italic */
+    -fx-padding: 0 0 10 0; /* Add padding to the bottom of the subheading label */
+    -fx-text-fill: rgb(255, 255, 255); /* Set the font color */
+}
+
+/* Subtitle label styling */
+.subtitle-label {
+    -fx-font-size: 18px; /* Set the font size to 18 pixels */
+    -fx-font-style: italic; /* Set the font style to italic */
+    -fx-padding: 0 0 10 0; /* Add padding to the bottom of the subtitle label */
+    -fx-text-fill: rgb(255, 255, 255); /* Set the font color */
+}
+
+/* Main styling for the entire application */
+.main-style {
+    -fx-spacing: 10; /* Set spacing between child nodes to 10 pixels */
+    -fx-alignment: center; /* Center-align child nodes */
+    -fx-padding: 20; /* Add padding around the entire application */
+    -fx-background-image: url('../Images/bg.jpg'); /* Set the background image of the application */
+    -fx-background-size: cover;
+}
+
+/* Bold label styling */
+.bold-label {
+    -fx-font-size: 18px; /* Set the font size to 18 pixels */
+    -fx-font-style: italic; /* Set the font style to italic */
+    -fx-padding: 0 0 10 0; /* Add padding to the bottom of the bold label */
+    -fx-font-weight: bold; /* Set the font weight to bold */
+    -fx-text-fill: rgb(255, 255, 255); /* Set the font color */
+}
+
+
+/* Button Styling */
+.button {
+    -fx-background-color: #4CAF50; /* Green background color */
+    -fx-text-fill: white; /* White text color */
+    -fx-font-size: 14px; /* Font size */
+    -fx-padding: 10 20; /* Padding (top/bottom, left/right) */
+    -fx-background-radius: 100; /* Background radius for a pill-shaped appearance */
+    -fx-border-width: 0; /* No border width */
+    -fx-cursor: hand; /* Change cursor to a hand on hover */
+}
+
+.button:hover {
+    -fx-background-color: #2bf635; /* Set the button color on hover */
+}
+
+.button:pressed {
+    -fx-background-color: #53ff58; /* Set the button color when clicked */
+}
