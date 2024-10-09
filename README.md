@@ -53,15 +53,19 @@ The Tip Tracker Application is a JavaFX-based software designed specifically for
 ## Screenshots
 
 ![Home Screen](Resources/1.png)
+
 *Home Screen: Asks the user if they are a returning user or a new user.*
 
 ![Sign In Screen](Resources/2.png)
+
 *Sign In Screen: User signs in as Brooke.*
 
 ![Load Previous Tips](Resources/3.png)
+
 *Load Previous Tips: Loads Brooke's previously stored tips/data, with options to add or subtract tips.*
 
 ![Added Tips](Resources/4.png)
+
 *Added Tips: Shows that Brooke added $100 of tips to her total.*
 
 ## Contributing
